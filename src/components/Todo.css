@@ -1,0 +1,65 @@
+.todoContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 3%;
+    background-image: linear-gradient(100deg, #05363c, #001f29);
+    color: #fff;
+    transition: .3s linear;
+    overflow: hidden;
+}
+.form {
+    display: flex;
+}
+
+.inputBox { 
+    background: rgb(238, 199, 199);
+    border: none;
+    height: 40px;
+    width: 220px;
+}
+
+.clear {
+    height: 40px;
+    width: 120px;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 9px;
+}
+
+li {
+    margin: 2.4rem;
+    font-size: 20px;
+    color: #1c2833;
+    border-radius: 30px;
+    transition: background-color .2s ease-in-out;
+    background-color: #f2f3f4;
+    min-width: 30rem;
+    max-width: 35rem;
+    padding: 1rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr .3fr .3fr;
+    justify-content: start;
+    gap: 1.6rem;
+    overflow-wrap: anywhere
+}
+
+.deleteBtn {
+    height: 22px;
+    width: 30px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-size: large;
+    margin-left: 3px;
+    border-radius: 3px;
+
+}
+
+.add {
+    background-color: green;
+}
+
